@@ -95,7 +95,7 @@ export default function Home() {
       {/* GitHub button */}
       <div className="absolute top-6 right-8 z-20">
         <GitHubButton
-          href="https://github.com/toukoum/portfolio"
+          href="https://github.com/guranshchugh-9/Portfolio"
           data-color-scheme="no-preference: light; light: light; dark: light_high_contrast;"
           data-size="large"
           data-show-count="true"
