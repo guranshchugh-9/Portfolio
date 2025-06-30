@@ -7,135 +7,110 @@ import { url } from 'inspector';
 // Enhanced project content array with all projects
 const PROJECT_CONTENT = [
   {
-    title: 'Synto',
+    title: 'LendX',
     description:
-      'Synto is an AI-powered interface that transforms complex blockchain interactions into simple, natural language commands. Whether you want to send tokens, stake assets, swap coins, or even create NFTs or liquidity pools, just tell Synto what to do — no manual wallet interactions, no technical jargon. One of my biggest projects yet',
+      'LendX is an AI-driven platform that helps first-time borrowers make smart loan decisions by analyzing bank statements, optimizing EMIs, and comparing lenders based on real user complaints scraped from Twitter. Upload your statement, enter your loan needs, and LendX does the rest — no credit history needed, no hidden stress. One of my most impactful fintech projects yet.',
     techStack: [
       'Next.js',
       'TailwindCSS',
-      'Web3.js',
       'shadcn-ui',
       'TypeScript',
-      'Phantom Wallet',
-      'OpenAI API',
+      'Groq API',
       'Vercel AI SDK',
-      'Solana Agent kit',
       'Neon',
+      'Clerk',
       'Prisma'
     ],
     date: '2025',
     links: [
       {
-        name: 'website',
-        url: 'https://synto.fun',
-      },
-      {
-        name: 'Launch Video',
-        url: 'https://www.youtube.com/watch?v=4QUE2KgKDUw',
-      },
-      {
-        name: 'X',
-        url: 'https://x.com/chainSynto',
-      },
-      {
-        name: 'Technical Video',
-        url: 'https://www.youtube.com/watch?v=1CjBLKPUwtA&feature=youtu.be',
-      },
-      {
         name: 'Pitch Deck',
-        url: 'https://drive.google.com/file/d/1B3m44mEgv81rJHfjNfTKi147yX4raQed/view?usp=sharing',
-      },
-      {
-        name: 'Usage tutorial',
-        url: 'https://www.youtube.com/watch?v=PRu1cfvT2bA',
+        url: 'https://www.canva.com/design/DAGq4v_-EpY/IU6tB9AYo-h0ux3U4F0zgA/edit?utm_content=DAGq4v_-EpY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
       }
     ],
     images: [
       {
-        src: '/synto1.png',
-        alt: 'Synto landing page',
+        src: '/l1.jpg',
+        alt: 'LendX landing page',
       },
       {
-        src: '/synto2.png',
-        alt: 'Synto chat interface',
+        src: '/l2.jpg',
+        alt: 'LendX authentication interface',
       },
       {
-        src: '/synto3.png',
-        alt: 'Synto chat interface',
+        src: '/l3.jpg',
+        alt: 'bank statement upload interface',
       },
       {
-        src: '/synto4.png',
-        alt: 'Synto chat interface',
+        src: '/l4.jpg',
+        alt: 'bank statement metrics interface',
       },
       {
-        src: '/synto5.png',
-        alt: 'Synto chat interface',
+        src: '/l5.jpg',
+        alt: 'emi optimisation interface',
       },
       {
-        src: '/synto6.png',
-        alt: 'Synto chat interface',
+        src: '/l6.jpg',
+        alt: 'banks comparison interface',
+      },
+      {
+        src: '/l8.jpg',
+        alt: 'tweets interface',
+      },
+      {
+        src: '/l7.jpg',
+        alt: 'financial literacy interface',
       },
     ],
   },
   {
-    title: 'Rrate',
+    title: 'YouTube-Video-Chatbot',
     description:
-      "Rrate is a fun website to allow user to compare his salary with the richest people in the world. Try it now it's online!",
-    techStack: ['Html', 'Css', 'Javascript'],
+      "AI-powered YouTube Video analyzer: transcribe, summarize & answer questions about any video. Uses Whisper, spaCy, FAISS & Groq.",
+    techStack: ['python', 'nlp'],
     date: '2024',
     links: [
       {
-        name: 'website',
-        url: 'https://rrate.app',
-      },
-      {
         name: 'github',
-        url: 'https://github.com/toukoum/Rrate',
+        url: 'https://github.com/guranshchugh-9/YouTube-Video-Intelligence-Pipeline',
       },
     ],
     images: [
       {
-        src: '/rrate1.png',
-        alt: 'Rrate landing page',
+        src: '/youtube.png',
+        alt: 'Youtube landing page',
       },
       {
-        src: '/rrate2.png',
-        alt: 'Rrate comparison page',
+        src: '/transcribe.png',
+        alt: 'transcript',
       },
       {
-        src: '/rrate3.png',
-        alt: 'Rrate comparison page',
+        src: '/keywords.png',
+        alt: 'keywords',
       },
+      {
+        src: '/question1.png',
+        alt: 'question',
+      }
     ],
   },
   {
-    title: 'Defai',
+    title: 'kaggle-wars-heart-mortality',
     description:
-      "We Win ETHOXford hackathon by building DEFAI. DEFAI stands for Decentralized Finance Artificial Intelligence. It's an AI-powered chat interface that simplifies on-chain operations on the Avalanche blockchain by allowing users to interact using natural language. This makes complex DeFi operations accessible even for those with limited technical expertise.",
+      "Analyze U.S. county-level trends in heart disease and stroke mortality over 20 years. Segmented by age, race/ethnicity, and sex, the dataset covers coronary heart disease, stroke, and hypertension. The project explores disparities, high-risk regions, and supports public health research and policy planning.",
     techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'shadcn-ui',
-      'Vercel AI SDK',
-      'TypeScript',
+      'Machine Learning',
+      'exploratory data analysis'
     ],
     date: '2025',
     links: [
       {
-        name: 'website',
-        url: 'https://dorahacks.io/buidl/22605',
-      },
-      {
         name: 'github',
-        url: 'https://github.com/toukoum/DEFAI',
+        url: 'https://github.com/guranshchugh-9/kaggle_wars_heart_mortality',
       },
       {
         name: 'LinkedIn',
-        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7299337190151483392/',
-      },
-      {
-        name: 'Youtube Video',
-        url: 'https://www.youtube.com/watch?v=N9O7los4-ng&t=34s&ab_channel=Toukoum',
+        url: 'https://www.linkedin.com/posts/guransh-chugh-b59437261_%F0%9D%97%AA%F0%9D%97%B2-%F0%9D%97%AA%F0%9D%97%BC%F0%9D%97%BB-%F0%9D%97%9E%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B4%F0%9D%97%B9%F0%9D%97%B2-%F0%9D%97%AA%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%80-%F0%9D%97%94-%F0%9D%97%A7-activity-7286329396175482880-AUIM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBQaLUBMpfTSWRSGdb1eod9W9JsRlJ3iyM',
       }
     ],
     images: [
@@ -420,13 +395,13 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
             {projectData.images.map((image, index) => (
               <div
                 key={index}
-                className="relative aspect-video overflow-hidden rounded-2xl"
+                className="relative aspect-video rounded-2xl overflow-hidden"
               >
                 <Image
                   src={image.src}
                   alt={image.alt}
                   fill
-                  className="object-cover transition-transform"
+                  className="object-cover  transition-transform"
                 />
               </div>
             ))}
@@ -440,22 +415,22 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
 // Main data export with updated content
 export const data = [
   {
-    category: 'Startup Project',
-    title: 'Synto',
+    category: 'Hackathon',
+    title: 'LendX',
     src: '/syntopreview.png',
-    content: <ProjectContent project={{ title: 'Synto' }} />,
+    content: <ProjectContent project={{ title: 'LendX' }} />,
   },
   {
     category: 'Fun Tool',
-    title: 'Rrate',
+    title: 'YouTube-Video-Chatbot',
     src: '/ratepreview.png',
-    content: <ProjectContent project={{ title: 'Rrate' }} />,
+    content: <ProjectContent project={{ title: 'YouTube-Video-Chatbot' }} />,
   },
   {
-    category: 'Hackathon Winner',
-    title: 'Defai',
+    category: 'Kaggle Hack Winner',
+    title: 'Heart-Mortality',
     src: '/defaipreview.png',
-    content: <ProjectContent project={{ title: 'Defai' }} />,
+    content: <ProjectContent project={{ title: 'kaggle-wars-heart-mortality' }} />,
   },
   {
     category: 'Hackathon Winner',

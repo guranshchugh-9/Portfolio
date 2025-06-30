@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Toukoum Portfolio",
+  title: "Guransh Portfolio",
   description: "Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experience",
   keywords: [
     "Toukoum", 
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Toukoum",
+      name: "Guransh",
       url: "https://toukoum.fr",
     },
   ],

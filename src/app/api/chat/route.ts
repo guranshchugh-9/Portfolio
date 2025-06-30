@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { groq } from '@ai-sdk/groq';
 import { streamText } from "ai";
 import { SYSTEM_PROMPT } from './prompt';
 import { getProjects } from './tools/getProjects';
@@ -11,7 +11,6 @@ import { getCrazy } from './tools/getCrazy';
 
 export const maxDuration = 30;
 
-// ❌ Pas besoin de l'export ici, Next.js n'aime pas ça
 function errorHandler(error: unknown) {
   if (error == null) {
     return 'Unknown error';
@@ -28,7 +27,7 @@ function errorHandler(error: unknown) {
 export async function POST(req: Request) {
   try {
     const { messages } = await req.json();
-    console.log("[CHAT-API] Incoming messages:", messages);
+    console.log("[GROQ-API] Incoming messages:", messages);
 
     messages.unshift(SYSTEM_PROMPT);
 
@@ -43,7 +42,7 @@ export async function POST(req: Request) {
     };
 
     const result = streamText({
-      model: openai("gpt-4o-mini"),
+      model: groq("gemma2-9b-it"),
       messages,
       toolCallStreaming: true,
       tools,

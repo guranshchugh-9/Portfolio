@@ -13,26 +13,23 @@ const Skills = () => {
       skills: [
         'HTML',
         'CSS',
-        'JavaScript/TypeScript',
+        'JavaScript',
         'Tailwind CSS',
-        'Bootstrap',
-        'Next.js',
         'React',
-        'Vercel AI SDK',
-        'Gsap',
+        'Gsap'
       ],
       color: 'bg-blue-50 text-blue-600 border border-blue-200',
     },
     {
       category: 'Backend & Systems',
       icon: <Cpu className="h-5 w-5" />,
-      skills: ['Unix', 'C', 'C++', 'Python', 'Git', 'GitHub', 'Docker', 'GCP', 'PostgreSQL'],
+      skills: ['Unix', 'C', 'C++', 'Python', 'Git', 'GitHub', 'Docker'],
       color: 'bg-emerald-50 text-emerald-600 border border-emerald-200',
     },
     {
       category: 'Design & Creative Tools',
       icon: <PenTool className="h-5 w-5" />,
-      skills: ['Figma', 'Davinci Code', 'Illustrator', 'Canva', 'Keynote'],
+      skills: ['Figma', 'Premiere Pro', 'Canva', 'Keynote'],
       color: 'bg-indigo-50 text-indigo-600 border border-indigo-200',
     },
     {
