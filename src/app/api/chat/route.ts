@@ -42,7 +42,7 @@ export async function POST(req: Request) {
     };
 
     const result = streamText({
-      model: groq("gemma2-9b-it"),
+      model: groq("groq/compound"),
       messages,
       toolCallStreaming: true,
       tools,
