@@ -132,183 +132,183 @@ const PROJECT_CONTENT = [
       },
     ],
   },
-  {
-    title: 'Fitgear',
-    description:
-      'Won the Gotta Go Hack IA by building Fitgear, a virtual voice seller accessible by QR code to improve the ratio between customers and sellers. Created an AI pipeline with API calls and a RAG system for natural language interactions.',
-    techStack: ['Next.js', 'TailwindCSS', 'OpenAI API', 'Langchain'],
-    date: '2024',
-    links: [
-      {
-        name: 'Linkedin',
-        url: 'https://www.linkedin.com/posts/raphael-giraud-60939519a_hackathon-innovation-sporttech-activity-7210399263774674946-qSXq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC6vwikBVSEkS7XWktWS7y6GR3GHwAlKslc',
-      },
-    ],
-    images: [
-      {
-        src: '/fitgear2.png',
-        alt: 'Fitgear chatbot',
-      },
-      {
-        src: '/fitgear1.png',
-        alt: 'Fitgear landing page',
-      },
-    ],
-  },
-  {
-    title: 'Datai',
-    description:
-      "DATAI is an AI-powered agent that lets non-technical users query a database using natural language without writing SQL. Built using Next.js, TailwindCSS, shadcn-ui, and Anthropic's Claude API, this project focuses on simplicity, speed, and user-friendly design.",
-    techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'shadcn-ui',
-      'Claude API',
-      'TypeScript',
-    ],
-    date: '2024',
-    links: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/datai',
-      },
-      {
-        name: 'Youtube Video Demo',
-        url: 'https://youtu.be/iE0RXjdbQsw',
-      }
-    ],
-    images: [
-      {
-        src: '/datai1.png',
-        alt: 'Datai landing page',
-      },
-      {
-        src: '/datai2.png',
-        alt: 'Datai chatbot',
-      },
-      {
-        src: '/datai3.png',
-        alt: 'Datai chatbot',
-      },
-      {
-        src: '/datai4.png',
-        alt: 'Datai chatbot',
-      }
-    ],
-  },
-  {
-    title: '3d Pong Game',
-    description:
-      "Transcendance is the final project of my 42 cursus. It's a 3D pong game with multiplayer capabilities, user authentication, and real-time gameplay. We had to do everything from scratch, so it was pretty challenging and we learned a lot.",
-    techStack: ['Django', 'Python', 'JavaScript', 'Websockets', 'PostgreSQL', 'Docker', 'Nginx', 'Web3', 'Solidity'],
-    date: '2023',
-    links: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/Transcendance',
-      },
-    ],
-    images: [
-      {
-        src: '/trans1.png',
-        alt: 'Transcendance landing page',
-      },
-      {
-        src: '/trans2.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans3.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans4.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans5.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans6.png',
-        alt: 'Transcendance game',
-      }
+  // {
+  //   title: 'Fitgear',
+  //   description:
+  //     'Won the Gotta Go Hack IA by building Fitgear, a virtual voice seller accessible by QR code to improve the ratio between customers and sellers. Created an AI pipeline with API calls and a RAG system for natural language interactions.',
+  //   techStack: ['Next.js', 'TailwindCSS', 'OpenAI API', 'Langchain'],
+  //   date: '2024',
+  //   links: [
+  //     {
+  //       name: 'Linkedin',
+  //       url: 'https://www.linkedin.com/posts/raphael-giraud-60939519a_hackathon-innovation-sporttech-activity-7210399263774674946-qSXq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC6vwikBVSEkS7XWktWS7y6GR3GHwAlKslc',
+  //     },
+  //   ],
+  //   images: [
+  //     {
+  //       src: '/fitgear2.png',
+  //       alt: 'Fitgear chatbot',
+  //     },
+  //     {
+  //       src: '/fitgear1.png',
+  //       alt: 'Fitgear landing page',
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: 'Datai',
+  //   description:
+  //     "DATAI is an AI-powered agent that lets non-technical users query a database using natural language without writing SQL. Built using Next.js, TailwindCSS, shadcn-ui, and Anthropic's Claude API, this project focuses on simplicity, speed, and user-friendly design.",
+  //   techStack: [
+  //     'Next.js',
+  //     'TailwindCSS',
+  //     'shadcn-ui',
+  //     'Claude API',
+  //     'TypeScript',
+  //   ],
+  //   date: '2024',
+  //   links: [
+  //     {
+  //       name: 'GitHub',
+  //       url: 'https://github.com/toukoum/datai',
+  //     },
+  //     {
+  //       name: 'Youtube Video Demo',
+  //       url: 'https://youtu.be/iE0RXjdbQsw',
+  //     }
+  //   ],
+  //   images: [
+  //     {
+  //       src: '/datai1.png',
+  //       alt: 'Datai landing page',
+  //     },
+  //     {
+  //       src: '/datai2.png',
+  //       alt: 'Datai chatbot',
+  //     },
+  //     {
+  //       src: '/datai3.png',
+  //       alt: 'Datai chatbot',
+  //     },
+  //     {
+  //       src: '/datai4.png',
+  //       alt: 'Datai chatbot',
+  //     }
+  //   ],
+  // },
+  // {
+  //   title: '3d Pong Game',
+  //   description:
+  //     "Transcendance is the final project of my 42 cursus. It's a 3D pong game with multiplayer capabilities, user authentication, and real-time gameplay. We had to do everything from scratch, so it was pretty challenging and we learned a lot.",
+  //   techStack: ['Django', 'Python', 'JavaScript', 'Websockets', 'PostgreSQL', 'Docker', 'Nginx', 'Web3', 'Solidity'],
+  //   date: '2023',
+  //   links: [
+  //     {
+  //       name: 'GitHub',
+  //       url: 'https://github.com/toukoum/Transcendance',
+  //     },
+  //   ],
+  //   images: [
+  //     {
+  //       src: '/trans1.png',
+  //       alt: 'Transcendance landing page',
+  //     },
+  //     {
+  //       src: '/trans2.png',
+  //       alt: 'Transcendance game',
+  //     },
+  //     {
+  //       src: '/trans3.png',
+  //       alt: 'Transcendance game',
+  //     },
+  //     {
+  //       src: '/trans4.png',
+  //       alt: 'Transcendance game',
+  //     },
+  //     {
+  //       src: '/trans5.png',
+  //       alt: 'Transcendance game',
+  //     },
+  //     {
+  //       src: '/trans6.png',
+  //       alt: 'Transcendance game',
+  //     }
 
-    ],
-  },
-  {
-    title: 'Minishell',
-    description:
-      "Minishell is a project that aims to create a simple shell. It's a great introduction to process creation and management in C, offering fundamental Unix command-line functionality. This was a very challenging project, but I learned a lot from it.",
-    techStack: ['C', 'Unix', 'Bash'],
-    date: '2023',
-    links: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/Michelle-42',
-      },
-    ],
-    images: [
-      {
-        src: '/minishell1.png',
-        alt: 'Minishell landing page',
-      }
-    ],
-  },
-  {
-    title: 'YouBot',
-    description:
-      'YouBot is a Python Bot that Scrapes Videos from Pexels, adds a random song from a Songs Folder, then auto-uploads the videos to your YouTube Channel for continuous content generation.',
-    techStack: ['Python', 'YouTube API', 'Pexels API'],
-    date: '2022',
-    links: [
-      {
-        name: "YouTube Video",
-        url: "https://youtu.be/vp1v5mBG7rA "
-      },
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/YouBot',
-      }
-    ],
-    images: [
-      {
-        src: '/youbot1.jpg',
-        alt: 'Youbot landing page',
-      },
-      {
-        src: '/youbot2.png',
-        alt: 'Youbot chatbot',
-      },
-    ],
-  },
-  {
-    title: 'Old Portfolio',
-    description:
-      'My previous traditional portfolio built with vanilla HTML, CSS and JS with GSAP animations for a smooth and interactive user experience.',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'GSAP'],
-    date: '2022',
-    links: [
-      {
-        name: 'Website',
-        url: 'https://toukoum.github.io/oldPortfolio/',
-      },
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/portfolio',
-      },
-    ],
-    images: [
-      {
-        src: '/oldport1.png',
-        alt: 'Old Portfolio landing page',
-      },
-      {
-        src: '/oldport2.png',
-        alt: 'Old Portfolio projects',
-      }
-    ],
-  },
+  //   ],
+  // },
+  // {
+  //   title: 'Minishell',
+  //   description:
+  //     "Minishell is a project that aims to create a simple shell. It's a great introduction to process creation and management in C, offering fundamental Unix command-line functionality. This was a very challenging project, but I learned a lot from it.",
+  //   techStack: ['C', 'Unix', 'Bash'],
+  //   date: '2023',
+  //   links: [
+  //     {
+  //       name: 'GitHub',
+  //       url: 'https://github.com/toukoum/Michelle-42',
+  //     },
+  //   ],
+  //   images: [
+  //     {
+  //       src: '/minishell1.png',
+  //       alt: 'Minishell landing page',
+  //     }
+  //   ],
+  // },
+  // {
+  //   title: 'YouBot',
+  //   description:
+  //     'YouBot is a Python Bot that Scrapes Videos from Pexels, adds a random song from a Songs Folder, then auto-uploads the videos to your YouTube Channel for continuous content generation.',
+  //   techStack: ['Python', 'YouTube API', 'Pexels API'],
+  //   date: '2022',
+  //   links: [
+  //     {
+  //       name: "YouTube Video",
+  //       url: "https://youtu.be/vp1v5mBG7rA "
+  //     },
+  //     {
+  //       name: 'GitHub',
+  //       url: 'https://github.com/toukoum/YouBot',
+  //     }
+  //   ],
+  //   images: [
+  //     {
+  //       src: '/youbot1.jpg',
+  //       alt: 'Youbot landing page',
+  //     },
+  //     {
+  //       src: '/youbot2.png',
+  //       alt: 'Youbot chatbot',
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: 'Old Portfolio',
+  //   description:
+  //     'My previous traditional portfolio built with vanilla HTML, CSS and JS with GSAP animations for a smooth and interactive user experience.',
+  //   techStack: ['HTML', 'CSS', 'JavaScript', 'GSAP'],
+  //   date: '2022',
+  //   links: [
+  //     {
+  //       name: 'Website',
+  //       url: 'https://toukoum.github.io/oldPortfolio/',
+  //     },
+  //     {
+  //       name: 'GitHub',
+  //       url: 'https://github.com/toukoum/portfolio',
+  //     },
+  //   ],
+  //   images: [
+  //     {
+  //       src: '/oldport1.png',
+  //       alt: 'Old Portfolio landing page',
+  //     },
+  //     {
+  //       src: '/oldport2.png',
+  //       alt: 'Old Portfolio projects',
+  //     }
+  //   ],
+  // },
 ];
 
 // Define interface for project prop
