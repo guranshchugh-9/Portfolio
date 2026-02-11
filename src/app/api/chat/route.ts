@@ -42,7 +42,7 @@ export async function POST(req: Request) {
     };
 
     const result = streamText({
-      model: groq("meta-llama/llama-4-maverick-17b-128e-instruct"),
+      model: groq("openai/gpt-oss-20b"),
       messages,
       toolCallStreaming: true,
       tools,

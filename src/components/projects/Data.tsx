@@ -7,6 +7,101 @@ import { url } from 'inspector';
 // Enhanced project content array with all projects
 const PROJECT_CONTENT = [
   {
+    title: 'Drug Repurposing Research Agent',
+    description:
+      'Developed an AI-driven pharmaceutical intelligence platform integrating 5+ data sources (clinical trials, market analytics, patents, EXIM trade, web research) to identify drug repurposing opportunities. Accelerated early-stage pharma research time by 90%+ (months to minutes) using multi-agent automation, parallel data processing, interactive dashboards, and automated PDF report generation.',
+    techStack: [
+      'Python',
+      'FastAPI',
+      'CrewAI',
+      'Groq LLM',
+      'React',
+      'MongoDB',
+    ],
+    date: 'January 2026',
+    links: [
+      {
+        name: 'GitHub',
+        url: 'https://drive.google.com/file/d/1HILezswYEEaelduE7rTwKaaGJB6qB-Q6/view?usp=sharing',
+      },
+      {
+        name: 'Live Demo',
+        url: 'https://drive.google.com/file/d/1HILezswYEEaelduE7rTwKaaGJB6qB-Q6/view?usp=sharing',
+      },
+      {
+        name: 'Demo Video',
+        url: 'https://drive.google.com/file/d/1HILezswYEEaelduE7rTwKaaGJB6qB-Q6/view?usp=sharing',
+      }
+    ],
+    images: [
+      {
+        src: '/pharmassist_1.png',
+        alt: 'Drug Repurposing Research Agent dashboard',
+      },
+      {
+        src: '/pharmassist_2.png',
+        alt: 'Data integration interface',
+      },
+      {
+        src: '/pharmassist_3.png',
+        alt: 'Multi-agent automation workflow',
+      },
+      {
+        src: '/pharmassist_4.png',
+        alt: 'Interactive analytics dashboard',
+      },
+      {
+        src: '/pharmassist_5.png',
+        alt: 'Interactive analytics dashboard',
+      },
+      {
+        src: '/pharmassist_6.png',
+        alt: 'Interactive analytics dashboard',
+      },
+    ],
+  },
+  {
+    title: 'Audio Language Reasoning Platform',
+    description:
+      'Built a synthetic audio dataset pipeline generating 10k+ labeled samples by mixing speech, environmental sounds, and radio noise for supervised audio-reasoning training. Engineered a parallel audio-language model processing speech + non-speech signals to enable cross-clip reasoning and structured outputs for timeline reconstruction.',
+    techStack: [
+      'Python',
+      'Audio Language Models',
+      'Whisper',
+      'CLAP',
+      'LLMs'
+    ],
+    date: 'December 2025',
+    links: [
+      {
+        name: 'GitHub',
+        url: 'https://github.com/vishesh7124/ALM',
+      },
+      {
+        name: 'Demo Video',
+        url: 'https://www.youtube.com/watch?v=KJRikwJLLUQ',
+      }
+    ],
+    images: [
+      {
+        src: '/alm_1.png',
+        alt: 'Audio Language Reasoning Platform interface',
+      },
+      {
+        src: '/alm_2.png',
+        alt: 'Synthetic audio dataset pipeline',
+      },
+      {
+        src: '/alm_3.png',
+        alt: 'Cross-clip reasoning visualization',
+      },
+      {
+        src: '/alm_4.png',
+        alt: 'Timeline reconstruction output',
+      },
+    ],
+  },
+  {
     title: 'LendX',
     description:
       'LendX is an AI-driven platform that helps first-time borrowers make smart loan decisions by analyzing bank statements, optimizing EMIs, and comparing lenders based on real user complaints scraped from Twitter. Upload your statement, enter your loan needs, and LendX does the rest — no credit history needed, no hidden stress. One of my most impactful fintech projects yet.',
@@ -60,6 +155,98 @@ const PROJECT_CONTENT = [
       {
         src: '/l7.jpg',
         alt: 'financial literacy interface',
+      },
+    ],
+  },
+  {
+    title: 'Insurance Premium Predictor',
+    description:
+      'Built a machine learning model to predict insurance premium categories (Low, Medium, High) based on user demographics and lifestyle factors. Developed a production-ready FastAPI backend with Pydantic validation, feature engineering (BMI, lifestyle risk, city tier), and confidence scoring. Created an interactive Streamlit frontend with real-time predictions and probability distributions.',
+    techStack: [
+      'Python',
+      'FastAPI',
+      'Machine Learning',
+      'Streamlit',
+      'Pydantic',
+      'Pandas',
+      'Scikit-learn'
+    ],
+    date: '2025',
+    links: [
+      {
+        name: 'GitHub',
+        url: 'https://github.com/guranshchugh-9/Insurance_premium_predict_deployed',
+      },
+      
+    ],
+    images: [
+      {
+        src: '/profile-image.jpeg',
+        alt: 'Insurance Premium Predictor interface',
+      },
+      {
+        src: '/profile-image.jpeg',
+        alt: 'Prediction results with confidence scores',
+      },
+      {
+        src: '/profile-image.jpeg',
+        alt: 'FastAPI backend architecture',
+      },
+      {
+        src: '/profile-image.jpeg',
+        alt: 'Class probability distribution',
+      },
+    ],
+  },
+  {
+    title: 'CodeCollab IDE',
+    description:
+      'A revolutionary collaborative coding platform with real-time code execution, AI-powered code suggestions, and built-in video chat. Designed for remote teams and pair programming sessions. Features include multi-language support, integrated debugging, and version control.',
+    techStack: [
+      'Vue.js',
+      'WebRTC',
+      'Socket.io',
+      'Monaco Editor',
+      'Kubernetes',
+      'Go',
+      'PostgreSQL',
+      'Redis'
+    ],
+    date: '2026',
+    links: [
+      {
+        name: 'Website',
+        url: 'https://codecollab-ide.com',
+      },
+      {
+        name: 'GitHub',
+        url: 'https://github.com/yourusername/codecollab-ide',
+      },
+      {
+        name: 'Documentation',
+        url: 'https://docs.codecollab-ide.com',
+      }
+    ],
+    images: [
+      {
+        src: '/profile-image.jpeg',
+        alt: 'CodeCollab IDE interface',
+      },
+      {
+        src: '/profile-image.jpeg',
+        alt: 'Real-time collaboration',
+      },
+      {
+        src: '/profile-image.jpeg',
+        alt: 'AI code suggestions',
+      },
+      {
+        src: '/profile-image.jpeg',
+        alt: 'Video chat integration',
+      },
+      {
+        src: '/profile-image.jpeg',
+        alt: 'Multi-language support',
       },
     ],
   },
@@ -415,11 +602,35 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
 // Main data export with updated content
 export const data = [
   {
+    category: 'Pharmaceutical AI',
+    title: 'Drug Repurposing Research Agent',
+    src: '/image_drug1.png',
+    content: <ProjectContent project={{ title: 'Drug Repurposing Research Agent' }} />,
+  },
+  {
     category: 'Hackathon',
     title: 'LendX',
     src: '/syntopreview.png',
     content: <ProjectContent project={{ title: 'LendX' }} />,
   },
+  {
+    category: 'Audio AI',
+    title: 'Audio Language Reasoning Platform',
+    src: '/audio.png',
+    content: <ProjectContent project={{ title: 'Audio Language Reasoning Platform' }} />,
+  },
+  // {
+  //   category: 'Machine Learning',
+  //   title: 'Insurance Premium Predictor',
+  //   src: '/profile-image.jpeg',
+  //   content: <ProjectContent project={{ title: 'Insurance Premium Predictor' }} />,
+  // },
+  // {
+  //   category: 'Developer Tools',
+  //   title: 'CodeCollab IDE',
+  //   src: '/profile-image.jpeg',
+  //   content: <ProjectContent project={{ title: 'CodeCollab IDE' }} />,
+  // },
   {
     category: 'Fun Tool',
     title: 'YouTube-Video-Chatbot',

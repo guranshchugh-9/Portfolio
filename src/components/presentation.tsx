@@ -13,7 +13,7 @@ export function Presentation() {
     // Add a newline character after the emoji
     description:
       "Hey 👋\nI'm Guransh Chugh. I'm a developer specializing in AI. I'm working at Ambey Consultancy in Ludhiana, Punjab. I'm passionate about AI, tech, Entrepreneurship and SaaS tech.",
-    src: '/profile-guransh.jpg',
+    src: '/profile-image.jpeg',
     fallbackSrc:
       'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',
   };
@@ -58,8 +58,7 @@ export function Presentation() {
                 src={profile.src}
                 alt={profile.name}
                 width={500}
-                height={500}
-                className="h-full w-full object-cover object-center"
+                height={500}                priority                className="h-full w-full object-cover object-center"
                 onError={(e) => {
                   // Fallback to placeholder if image fails to load
                   const target = e.target as HTMLImageElement;
